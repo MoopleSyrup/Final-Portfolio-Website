@@ -254,3 +254,28 @@ button:hover {
     background-color: #ffaa3e;
 }
 
+.holder {
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 700px;
+    perspective-origin: center;
+}
+
+.panel {
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.panel:nth-child(1) {
+    transform: rotateY(0deg) translateZ(400px);
+}
+.panel:nth-child(2) {
+    transform: rotateY(22.5deg) translateZ(400px);
+}
