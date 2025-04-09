@@ -17,7 +17,7 @@
             display: flex;
             justify-content: center;
             gap: 2rem;
-            background-color: #f25042;
+            background-color: #64b85a;
             padding: 1rem;
             position: fixed;
             top: 0;
@@ -56,7 +56,7 @@
             margin: 1rem auto;
             padding: 1rem;
             background: rgba(255, 255, 255, 0.02);
-            border-left: 4px solid #f25042;
+            border-left: 4px solid #64b85a;
             border-radius: 10px;
         }
 
@@ -85,7 +85,7 @@
         .icon:hover {
             transform: scale(1.1);
             transition: transform 0.3s ease, box-shadow 0.5s ease;
-            box-shadow: 5px 5px 5px #f25042;
+            box-shadow: 5px 5px 5px #64b85a;
         }
 
         .image-gallery {
@@ -142,7 +142,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background: #f25042;
+            background: #64b85a;
             overflow: hidden;
         }
 
@@ -230,7 +230,7 @@ input,
 textarea {
     padding: 10px;
     font-family: 'Space Mono', monospace;
-    border: 2px solid #f25042;
+    border: 2px solid #64b85a;
     border-radius: 5px;
     background-color: #0f0e17;
     color: #fffffe;
@@ -239,7 +239,7 @@ textarea {
 }
 
 button {
-    background-color: #f25042;
+    background-color: #64b85a;
     color: #0f0e17;
     font-weight: bold;
     padding: 0.75rem;
